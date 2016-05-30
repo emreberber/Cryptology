@@ -32,7 +32,7 @@ void Affine(char array[],int A,int B)
 		if(array[i]>64 && array[i]<91)
 		{
 			X = array[i] - 65 ;
-	   	    key = (A*X+B) % 26 ;
+	   	        key = (A*X+B) % 26 ;
 			array[i] = upper[key] ;	
 		}
 		else if(array[i]>97)
