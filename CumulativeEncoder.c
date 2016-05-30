@@ -22,7 +22,7 @@ void Cumulative(char Array[] , char Cipher[] )
 	if(Array[0]<91)
 	{
 		for(i=0 ; Array[i] != '\0' ; i++)
-    	{
+    		{
 			if(Array[i]==' ')
 			{
 				Cipher[i] = ' ' ;
