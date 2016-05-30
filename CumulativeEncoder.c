@@ -33,7 +33,7 @@ void Cumulative(char Array[] , char Cipher[] )
 				temp = sum / 3 ;
 				if(temp<1)
 				{
-					bol = sum ;
+					temp = sum ;
 				}
 				while(temp>26)
 				{
