@@ -72,8 +72,8 @@ void Cumulative(char Array[] , char Cipher[] )
 int main()
 {
 	char Array[40];
-	int param = 0 ,i ;
 	char Cipher[40];
+	int param = 0 ,i ;
 	
 	printf("Cumulative Encoder \n\n");
 	printf("Press String : ");  gets(Array);
