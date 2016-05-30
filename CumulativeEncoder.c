@@ -8,7 +8,7 @@
 >		   Compiler :  TDM-GCC 4.9.2 
 >
 >		  Developer :  Emre Berber 
->		 	  Other :  emreberber.com 
+>		      Other :  emreberber.com 
 >
 ><><><><><><><><><><><><><><><><><><><><><><><><><><><
 */
@@ -18,7 +18,7 @@
 
 void Cumulative(char Array[] , char Cipher[] )
 {
-	int sum = 0 , bol , i ;
+	int sum = 0 , temp , i ;
 	if(Array[0]<91)
 	{
 		for(i=0 ; Array[i] != '\0' ; i++)
@@ -30,16 +30,16 @@ void Cumulative(char Array[] , char Cipher[] )
 			else
 			{
 				sum += Array[i] - 64 ;
-				bol = sum / 3 ;
-				if(bol<1)
+				temp = sum / 3 ;
+				if(temp<1)
 				{
 					bol = sum ;
 				}
-				while(bol>26)
+				while(temp>26)
 				{
-					bol -= 26 ;
+					temp -= 26 ;
 				}
-				Cipher[i] = 64 + bol ;
+				Cipher[i] = 64 + temp ;
 			}		
 		}		
 	}
@@ -54,14 +54,14 @@ void Cumulative(char Array[] , char Cipher[] )
 			else
 			{
 				sum += Array[i] - 96 ;
-				bol = sum / 3 ;
-				if(bol<1)
+				temp = sum / 3 ;
+				if(temp<1)
 				{
-					bol = sum ;
+					temp = sum ;
 				}
-				while(bol>26)
+				while(temp>26)
 				{
-					bol -= 26 ;
+					temp -= 26 ;
 				}
 				Cipher[i] = 96 + bol ;	
 			}
