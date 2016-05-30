@@ -63,7 +63,7 @@ void Cumulative(char Array[] , char Cipher[] )
 				{
 					temp -= 26 ;
 				}
-				Cipher[i] = 96 + bol ;	
+				Cipher[i] = 96 + temp ;	
 			}
 		}			
 	}
