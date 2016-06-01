@@ -82,7 +82,7 @@ int main()
 	printf("Prime Number Encoder \n\n");
 	printf("Press String     : ");     	gets(Array);
 	printf("1st Prime Number : "); 	 	scanf("%d",&num1);
-	printf("2nd Prime Number : ");  	scanf("%d",&num2);
+	printf("2nd Prime Number : ");  		scanf("%d",&num2);
 	
 	if (PrimeControl(num1)  + PrimeControl(num2)==2)
 	{
