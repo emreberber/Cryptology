@@ -50,7 +50,7 @@ void Caesar(char array[] , long int counter)
 		}
 		if(array[i]==' ')  
 		{
-			array[i]==' ';  
+			array[i]=' ';  
 			i++;  
 		}				
 	}	
