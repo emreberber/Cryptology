@@ -8,7 +8,7 @@
 >		   Compiler :  TDM-GCC 4.9.2 
 >
 >		  Developer :  Emre Berber 
->		 	  Other :  emreberber.com 
+>		      Other :  emreberber.com 
 >
 ><><><><><><><><><><><><><><><><><><><><><><><><><><><
 */
@@ -22,7 +22,7 @@ int PrimeControl(int num)
 	
 	for(i=1 ; i<num ; i++)
 	{		
-		if(num %i ==0 && num>2)
+		if(num%i==0 && num>2)
 		{
 			counter ++ ;
 		}
@@ -42,7 +42,7 @@ void PrimeNumber(char Array[] , int num1 , int num2)
 {
 	int key , j=0 , i;
 	
-	for(i=0 ; Array[i] != '\0' ; i++)
+	for(i=0 ; Array[i]!='\0' ; i++)
 	{	
 		if(j%2==0 && Array[i]!=32)
 		{
