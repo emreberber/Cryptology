@@ -3,7 +3,7 @@
 >													 
 >
 >		   Filename :  PrimeNumEncoder.c
->		Explanation :   Cipher Encoder with Prime Numbers
+>		Explanation :  Cipher Encoder with Prime Numbers
 >		   	
 >		   Compiler :  TDM-GCC 4.9.2 
 >
