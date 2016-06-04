@@ -8,7 +8,7 @@
 >		   Compiler :  TDM-GCC 4.9.2 
 >
 >		  Developer :  Emre Berber 
->		 	  Other :  emreberber.com 
+>		      Other :  emreberber.com 
 >
 ><><><><><><><><><><><><><><><><><><><><><><><><><><><
 */
@@ -25,7 +25,7 @@ int Permutation(char Array[] , char Cipher[] , int Key)
 	for(a=0 ; Array[a]!='\0' ; a++)
 	{
 		letter ++ ;
-    }	
+	}	
     
 	extra = Key ;  //replacement	
 	while(extra>0)
