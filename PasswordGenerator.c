@@ -8,7 +8,7 @@
 >		   Compiler :  TDM-GCC 4.9.2 
 >
 >		  Developer :  Emre Berber 
->		 	  Other :  emreberber.com 
+>		      Other :  emreberber.com 
 >
 ><><><><><><><><><><><><><><><><><><><><><><><><><><><
 */
@@ -65,7 +65,7 @@ void Password(int difficulty , int size , char cipher[])
 			}
 			else if(c==1)
 			{
-				b=1+rand()%24 ;
+				b=1+rand()%26 ;
 				cipher[a]=lower[b];
 			}
 		}
@@ -87,12 +87,12 @@ void Password(int difficulty , int size , char cipher[])
 			}
 			else if(c==1)
 			{
-				b=1+rand()%24 ;
+				b=1+rand()%26 ;
 				cipher[a]=lower[b];
 			}
 			else if(c==2)
 			{
-				b=1+rand()%24 ;
+				b=1+rand()%26 ;
 				cipher[a]=upper[b];
 			}			
 		}
@@ -114,12 +114,12 @@ void Password(int difficulty , int size , char cipher[])
 			}
 			else if(c==1)
 			{
-				b=1+rand()%24 ;
+				b=1+rand()%26 ;
 				cipher[a]=lower[b];
 			}
 			else if(c==2)
 			{
-				b=1+rand()%24 ;
+				b=1+rand()%26 ;
 				cipher[a]=upper[b];
 			}
 			else if(c==3)
@@ -139,11 +139,11 @@ int main()
 	char cipher[100]  , ans[1];
 	printf("======== RANDOM PASSWORD GENERATOR ======== \n");
 	printf("                                            \n");
-	printf("	======= LEVEL 1 ======= > 0296541       \n");
-	printf("	======= LEVEL 2 ======= > 02h6y4v       \n");
-	printf("	======= LEVEL 3 ======= > P2h6y4V       \n");
-	printf("	======= LEVEL 4 ======= > P2h.y4?       \n");
-	printf(" 										    \n");
+	printf("	======= LEVEL 1 ======= > 0296541   \n");
+	printf("	======= LEVEL 2 ======= > 02h6y4v   \n");
+	printf("	======= LEVEL 3 ======= > P2h6y4V   \n");
+	printf("	======= LEVEL 4 ======= > P2h.y4?   \n");
+	printf(" 				            \n");
 	printf("<!> We recommend you use Level 3 - 4  <!>   \n");
 	printf("<!> and size should be greater than 8 <!>   \n\n");
 	
